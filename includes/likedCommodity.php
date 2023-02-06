@@ -1,7 +1,4 @@
 <?php
-
-
-
 $username = $_SESSION["username"];
 $email = $_SESSION["email"];
 // $_SESSION["email"]=$email;
