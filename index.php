@@ -83,9 +83,9 @@
 						?>
 
 							<a href="index.php?commodity_id=<?php echo $commodityId ?> && commodity_name = <?php echo $names ?>">
-								<?php echo $description . " at " . $price . "Rwf" . " Kumufungo"; ?>
+								<?php echo $description . " at " . $price . "Rwf"; ?>
 
-								<img src="img/<?php echo $image ?>" class="img-fluid" alt="boy">
+								<img src="img/<?php echo $image ?>" class="img-fluid" width="300" height="300" alt="boy">
 
 							</a>
 						<?php
@@ -116,7 +116,7 @@
 							<a href="index.php?commodity_id=<?php echo $commodityId ?> && commodity_name = <?php echo $names ?>">
 								<?php echo $description . " at " . $price . "Rwf" . " /Kg"; ?>
 
-								<img src="img/<?php echo $image ?>" class="img-fluid" alt=""><br>
+								<img src="img/<?php echo $image ?>" width="300" height="300" class="img-fluid" alt=""><br>
 
 							</a>
 						<?php } ?>
@@ -142,9 +142,9 @@
 						?>
 
 							<a href="index.php?commodity_id=<?php echo $commodityId ?> && commodity_name = <?php echo $names ?>">
-								<?php echo $description . " at " . $price . "Rwf" . " Kumufungo"; ?>
+								<?php echo $description . " at " . $price . "Rwf"; ?>
 
-								<img src="img/<?php echo $image ?>" class="img-fluid" alt="">
+								<img src="img/<?php echo $image ?>" class="img-fluid" width="300" height="300" alt="">
 
 							</a>
 						<?php } ?>
@@ -181,9 +181,9 @@
 						?>
 
 							<a href="index.php?commodity_id=<?php echo $commodityId ?> && commodity_name = <?php echo $names ?>">
-								<?php echo $description . " at " . $price . "Rwf" . " Kumufungo"; ?>
+								<?php echo $description . " at " . $price . "Rwf"; ?>
 
-								<img src="img/<?php echo $image ?>" class="img-fluid" alt="">
+								<img src="img/<?php echo $image ?>" class="img-fluid" width="300" height="300" alt="">
 
 							</a>
 						<?php } ?>
